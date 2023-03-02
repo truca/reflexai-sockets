@@ -1,19 +1,19 @@
-# Backend for chat application using socket.io
+# ReflexAI socket server
 
-You can test the live app [here](https://chattrio.netlify.app/). 
-The front end for this application can be found [here](https://github.com/AkileshAro/chat-client).
+express server with sockets for reflexai next server
 
-## Libraries used :
-- Express 
-- Socket.io
-- Node.JS Http server
-- Cors
+## Installation Process :
 
-## Installation Process : 
 1. Clone/Download the project.
 2. Open the project directory on your machine using terminal or a code editor of your choice and type `npm i`
-3. Once the packages are installed, type `npm start` and you'll be able to see the server up and running on your local host.
+3. Copy the next content into a `.env` file (modify if needed)
 
-Cheers :+1: 
+```
+MONGODB_URI=mongodb://127.0.0.1:27017/reflexai
+ORIGIN=localhost:3000
+```
 
-  
+4. Once the packages are installed, type `npm start` and you'll be able to see the server up and running on your local host.
+5. For development purposes, use `npm dev` instead to start the server
+
+Cheers :+1:
